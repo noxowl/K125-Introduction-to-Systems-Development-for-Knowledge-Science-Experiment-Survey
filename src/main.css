@@ -1,0 +1,23 @@
+.name-background {
+    background-color: mintcream;
+}
+
+p.introduce {
+    font-size: 1.2rem;
+}
+
+.interest {
+    font-size: 1.1rem;
+}
+
+#movie {
+    color: darkblue;
+}
+
+#gallery {
+    color: maroon;
+}
+
+#trip {
+    color: darkseagreen;
+}
