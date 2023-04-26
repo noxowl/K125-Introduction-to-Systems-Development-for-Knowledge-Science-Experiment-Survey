@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Javascript Example</title>
+    <link rel="stylesheet" href="../src/main.css" />
+    <link rel="icon" href="../src/favicon.png" />
+  </head>
+
+  <body>
+    <header></header>
+    <main>
+        <p>
+            開発者ツール（デベロッパーツール）を開き、コンソールメニューをクリックしてください。<br>
+            Please open the "Inspector(Developer Tool)" and click on the Console menu.
+        </p>
+    </main>
+    <footer></footer>
+    <script>
+        let sum = 1 + 2 + 3 + 4 + 5;
+        console.log("Simple sum: " + sum);
+
+        let sum_with_loop = 0;
+        for (let i = 1; i < 6; i++) {
+            sum_with_loop += i;
+        }
+        console.log("Sum with loop: " + sum_with_loop);
+    </script>
+</body>
