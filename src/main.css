@@ -1,3 +1,21 @@
+nav a.menu {
+    color: gray;
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    display: inline-block;
+}
+
+nav a.menu.current {
+    color: black;
+    border: 3px solid black;
+}
+
+nav a.menu:hover {
+    color: red;
+}
+
 .name-background {
     background-color: mintcream;
 }
